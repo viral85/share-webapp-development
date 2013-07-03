@@ -1,0 +1,1 @@
+<ui:video video="${video.url}" id='video-upload'/>

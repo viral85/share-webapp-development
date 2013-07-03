@@ -1,0 +1,192 @@
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+//  Color.
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+body, html, input[type="text"], input[type="password"] {
+    color: #808080;
+}
+
+button, .popup, #sidebar, #menubar, #menubar a, #toolbar, #toolbar a {
+	color: #fff;
+}
+
+a, a:hover, a:visited {
+	color: #808080;
+}
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+//  Background Image.
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+#wrap {
+	background: url('../images/sidebar.png') repeat-y;
+}
+
+#menubar {
+	background: #40464C url('../images/menubar.png') repeat-x;
+}
+
+#toolbar {
+	background: #15161C url('../images/toolbar.png') repeat-x;
+}
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+//  Background Color.
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+#menubar > ul > li:hover > a, #menubar > ul > li:hover > span, #menubar > ul li:hover ul li a:hover{
+	background: #F9802B !important;
+	background: linear-gradient(top, #B4572D 0%,#FE832B 100%) !important;
+	background: -webkit-linear-gradient(top, #B4572D 0%,#FE832B 100%) !important;
+	background: -moz-linear-gradient(top, #B4572D 0%,#FE832B 100%) !important;
+}
+
+#menubar > ul ul a, #menubar > ul > li li:hover a{
+	background:#3E444A;
+}
+
+#sidebar button + span{
+	color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+select {
+	background: #fff;
+}
+
+#page-list > li img{
+	background:#5E6063;
+}
+
+.jspDrag{
+	background: linear-gradient(left, #1C1E24 0%,#545C62 100%) !important;
+	background: -webkit-linear-gradient(left, #1C1E24 0%,#545C62 100%) !important;
+	background: -moz-linear-gradient(left, #1C1E24 0%,#545C62 100%) !important;
+}
+
+.popup-header {
+	background-color: #5E6063;
+	background: linear-gradient(top, #676F74 0%,#36383D 100%);
+	background: -webkit-linear-gradient(top, #676F74 0%,#36383D 100%);
+	background: -moz-linear-gradient(top, #676F74 0%,#36383D 100%);
+}
+
+.popup-content {
+	background-color: #616366;
+	background: linear-gradient(top, #616366 0%,#7C7F82 100%);
+	background: -webkit-linear-gradient(top, #616366 0%,#7C7F82 100%);
+	background: -moz-linear-gradient(top, #616366 0%,#7C7F82 100%);
+}
+
+.popup-footer{
+	background-color: #5E6063;
+	background: linear-gradient(top, #84878A 0%,#606265 100%);
+	background: -webkit-linear-gradient(top, #84878A 0%,#606265 100%);
+	background: -moz-linear-gradient(top, #84878A 0%,#606265 100%);
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////
+//  Border.
+////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+.jspDrag{
+	border-radius: 5px;
+	border: #333 1px solid;
+}
+
+input[type="text"], input[type="password"],
+input[type="text"]:focus, input[type="password"]:focus, 
+input.text, input.email, input.password, textarea.uniform,
+input.text:focus, input.email:focus, input.password:focus, textarea.uniform:focus{
+	border-radius: 14px;
+	border: #1A171B;
+	box-shadow:inset 0 0 5px #000;
+}
+
+legend {
+	border-bottom: #B3B3B3 2px solid;
+}
+
+#menubar, #toolbar {
+	border-bottom: 1px solid #B3B3B3;
+}
+
+select, #menubar > ul ul li:first-child a, #menubar > ul > li:hover > a, #menubar > ul > li:hover > span, #menubar > ul ul a {
+	border: #B3B3B3 1px solid;
+}
+
+#menubar > ul > li:hover > a, #menubar > ul > li:hover > span{
+	border-bottom:none;
+}
+
+#menubar > ul ul a, #menubar > ul > li:hover > a, #menubar > ul > li:hover > span{
+	border-top:none;
+}
+
+fieldset {
+	border: none;
+}
+
+.popup {
+	border: #1A171B;
+}
+
+.popup-header {
+	border-radius: 8px 8px 0 0;
+}
+
+
+
+.popup-footer {
+	border: #999999 1px solid;
+	border-radius: 0 0 8px 8px;
+}
+
+.app-explorer .files li .background-icon {
+    background: url(../images/no-image-57.png) no-repeat;
+    height: 64px;
+    left: 22px;
+    position: absolute;
+    top: 5px;
+    width: 57px;
+}
+
+.app-explorer .files li {
+    position:relative;
+}
+
+.small-pages li {
+    position: relative;
+    float:left;
+}
+
+.small-pages li .background-icon {
+    background: url(../images/no-image-57.png) no-repeat;
+    height: 64px;
+    left: 6px;
+    position: absolute;
+    top: 10px;
+    width: 57px;
+}
+
+
+
+
+
+
+

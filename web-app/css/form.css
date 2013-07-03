@@ -1,0 +1,240 @@
+/* FORM
+---------------------------------------------- */
+
+form {
+    margin: 20px auto;
+}
+
+form label + input[type="checkbox"], label + .checker {
+	margin-left: 10px;
+}
+
+form input[type="checkbox"] + label, .checker + label {
+	margin-left: 10px;
+}
+
+.checker + label {
+	vertical-align: 0.2em;
+}
+
+label + .checker {
+	vertical-align: -0.3em;
+}
+
+form button + button {
+	margin-left: 25px;
+}
+
+form.one-col {
+    width: 405px;
+    margin-top: 50px;
+}
+
+form.two-col {
+    width: 930px;
+    margin-top: 50px;
+}
+
+fieldset {
+	margin-bottom: 40px;
+}
+
+input{
+	margin:0;
+}
+
+.user-form input[type="text"],
+.user-form input[type="password"]{
+	font-size:14px;
+	width: 380px;
+}
+
+.ui-dialog input[type="text"],
+.ui-dialog input[type="password"]{
+	font-size:14px;
+}
+
+input[type="text"], input[type="password"] {
+	width: 402px;
+	padding: .3em 1em .375em;
+}
+
+input[type="text"].mini,input[type="text"].short{
+
+}
+input[type="text"].short{
+	width:60px;
+	display: inline-block;
+	font-size:12px;
+}
+
+input[type="text"].normal{
+	width:120px;
+}
+
+input[type="text"].big{
+	width:240px;
+}
+
+input[type="text"].n-big{
+	width:200px;
+}
+
+
+input[type="text"].dynamic{
+	width:64%;
+	margin: auto;
+	min-width:40px;
+}
+
+input[type="text"].dynamic-with-margin{
+	width:70%;
+}
+
+form a {
+	color: #335A80;
+}
+
+form a:visited {
+	color: #335A80;
+}
+
+form.two-col {
+	width: 930px;
+	margin: 20px auto;
+}
+
+form.two-col legend {
+	font-size: 18px;
+	border-bottom: #B4B4B4 1px solid;
+	padding-bottom: 4px;
+}
+
+form.two-col fieldset{
+	float: right;
+	width: 405px;
+}
+
+form.two-col fieldset:first-child{
+	float:left;
+}
+
+form.two-col fieldset#account-valid {
+	text-align:right;
+	float:right;
+	margin-bottom:50px;
+	margin-top: 50px;
+}
+
+form.two-col fieldset legend + p {
+	margin-top: 20px;
+}
+
+form fieldset p, form p {
+	margin-top: 5px;
+}
+
+.user-form .selector{
+	
+}
+
+div.selector {
+ 	color: #808080;
+	border-radius: 14px;
+	border: #1A171B;
+	box-shadow:inset 0 0 5px #000;
+	background: #fff;
+	background-image: none;
+	width: 100%;
+	cursor: pointer;
+	text-align: left;
+}
+
+div.black-selector {
+	box-shadow: none;
+	color: #fff;
+	border: #1A171B;
+	background-color: #5E6063;
+	background: linear-gradient(top, #484F55 0%,#121317 100%);
+	background: -webkit-linear-gradient(top, #484F55 0%,#121317 100%);
+	background: -moz-linear-gradient(top, #484F55 0%,#121317 100%);
+}
+
+.selector.normal {
+    width: 150px;
+    padding: 0;
+}
+
+.selector.small {
+    width: 100px;
+    padding: 0;
+}
+
+div.selector span {
+	background: url('../images/select.png') no-repeat right !important;
+	text-indent: 12px;
+	line-height: 21px;
+}
+
+div.black-selector > span {
+	background: url('../images/select-black.png') no-repeat right !important;
+}
+.black-selector.disabled > span {
+	background: url('../images/select.png') no-repeat right !important;
+}
+
+div.black-selector,
+select {
+	width: 220px;
+}
+
+.ui-dialog .selector{
+	font-size:14px;
+}
+.ui-dialog .selector span{
+	line-height:24px;
+}
+.user-form .selector{
+	font-size:14px;
+}
+.user-form .selector span{
+	line-height:24px;
+}
+
+span + .selector{
+	margin-left: 10px;
+}
+
+form button#login {
+	float: left;
+}
+
+
+form #login-control span{
+	margin-left: 10px;
+	line-height: 1.2em;
+}
+
+form p{
+	min-height: 45px;
+}
+form #account-valid p{
+	min-height: 35px;
+}
+#company-fields {
+	float: left;
+	clear: both;
+}
+
+label.error {
+	color: #f33;
+	margin: 2px 0 0 12px;
+	display: block;
+}
+
+.select-color input{
+	width:60px;
+	display:inline-block;
+	text-align:center;
+	margin-left: 8px;
+}

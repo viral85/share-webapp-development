@@ -1,0 +1,336 @@
+/* button 
+---------------------------------------------- */
+.button,
+.fileupload .qq-upload-button {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .4em 1.6em .45em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em; 
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.button:hover, 
+.fileupload .qq-upload-button-hover{
+    text-decoration: none;
+}
+.button:active,
+.fileupload .qq-upload-button:active{
+    position: relative;
+    top: 1px;
+}
+
+.bigrounded {
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+.notext {
+	padding: 8px;
+}
+
+.medium {
+    font-size: 12px;
+    padding: .4em 1.5em .42em;
+}
+.small {
+    font-size: 12px;
+    padding: .3em 1em .375em;
+}
+
+
+.button + span {
+	margin-left: 8px;
+}
+
+.plus + span {
+	vertical-align: .25em;
+}
+
+/* color styles 
+---------------------------------------------- */
+
+/* black */
+.button.black,
+.button-icon.black,
+.fileupload .qq-upload-button{
+    color: #d7d7d7;
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+.button.black:hover,
+.button-icon.black:hover, 
+.fileupload .qq-upload-button-hover {
+    background: #000;
+    background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#000));
+    background: -moz-linear-gradient(top,  #444,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#444444', endColorstr='#000000');
+}
+.button.black:active,
+.button-icon.black:active,
+.fileupload .qq-upload-button:active {
+    color: #666;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#444));
+    background: -moz-linear-gradient(top,  #000,  #444);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#666666');
+}
+
+/* gray */
+.button.gray {
+    color: #e9e9e9;
+    border: solid 1px #555;
+    background: #6e6e6e;
+    background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#575757));
+    background: -moz-linear-gradient(top,  #888,  #575757);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#575757');
+}
+.button.gray:hover {
+    background: #616161;
+    background: -webkit-gradient(linear, left top, left bottom, from(#757575), to(#4b4b4b));
+    background: -moz-linear-gradient(top,  #757575,  #4b4b4b);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#757575', endColorstr='#4b4b4b');
+}
+.button.gray:active {
+    color: #afafaf;
+    background: -webkit-gradient(linear, left top, left bottom, from(#575757), to(#888));
+    background: -moz-linear-gradient(top,  #575757,  #888);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#575757', endColorstr='#888888');
+}
+
+/* orange */
+.button.orange{
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.button.orange:hover {
+    background: #f47c20;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+    background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.button.orange:active {
+    color: #fcd3a5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+    background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+
+
+/*
+/////////////////////////////////////////
+//  Icones.
+/////////////////////////////////////////
+*/
+.button-icon {
+	display: inline-block;
+	padding: 8px;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.icon {
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	background: transparent url('../images/sprite.png');
+	border: none;
+}
+
+.button-icon.mini {
+	width: 28px;
+	height: 28px;
+	padding: 3px;
+}
+
+/* sidebar */
+
+.home {
+	background-position: -250px -70px;
+}
+.home.active {
+	background-position: -250px -40px;
+}
+
+.link.active {
+	background-position: -280px -40px;
+}
+
+.link {
+	background-position: -310px -40px;
+}
+
+.link + span {
+	float: right;
+	margin-top: -32px;
+	color: #9B938A;
+}
+.link.active + span {
+	float: right;
+	margin-top: -32px;
+	color: #fff;
+}
+
+/* toolbar */
+.iconmini {
+	width: 16px;
+	height: 16px;
+}
+
+.iconmedium {
+	width: 20px;
+	height: 20px;
+}
+
+.iconsmall {
+	width: 20px;
+	height: 20px;
+}
+
+.iconbig {
+	width: 70px;
+	height: 70px;
+	margin: 14px;
+}
+
+.nouveau {
+	background-position: 0 0;
+}
+
+.ouvrir {
+	background-position: -32px 0;
+}
+
+.enregistrer {
+	background-position: -64px 0;
+}
+
+.enregistrersous{
+	background-position: -98px 0;
+}
+
+.nouveau:hover {
+	background-position: 0 -20px;
+}
+
+.ouvrir:hover {
+	background-position: -32px -20px;
+}
+
+.enregistrer:hover {
+	background-position: -64px -20px;
+}
+
+.enregistrersous:hover {
+	background-position: -98px -20px;
+}
+
+.preview {
+	background-position: -389px 0;
+}
+
+.target {
+	background-position: -350px 0;
+}
+
+.preview:hover {
+	background-position: -389px -20px;
+}
+
+.target:hover {
+	background-position: -350px -20px;
+}
+
+.nouveaubig {
+	background-position: 0 -40px;
+}
+.ouvrirbig {
+	background-position: 0px -110px;
+}
+
+.button-icon .plus {
+	background-position: -150px -40px;
+}
+
+.button-icon .plus.active{
+	background-position: -130px -40px;
+}
+
+.button-icon .miniplus {
+	background-position: -190px -40px;
+	padding: 
+}
+
+.button-icon .miniplus.active{
+	background-position: -170px -40px;
+}
+
+/* config */
+
+
+
+.up {
+	background-position: -190px -60px;
+	display:inline-block;
+}
+
+.down {
+	background-position: -210px -60px;
+	display:inline-block;
+}
+
+.clipper {
+	background-position: -280px -70px;
+}
+
+.edit {
+	background-position: -131px -62px;
+	display:inline-block;
+}
+
+.delete{
+	background-position: -151px -62px;
+	display:inline-block;
+}
+
+.info{
+	background-position: -120px 0;
+	display:inline-block;
+}
+
+.online{
+	background-position: -70px -70px;
+}
+
+.offline{
+	background-position: -70px -40px;
+}
+
+.lock{
+	background-position: -100px -50px;
+}

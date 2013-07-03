@@ -1,0 +1,1083 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	height: 100%;
+}
+
+body{
+    /*overflow: hidden;*/
+}
+
+#wrap h1 {
+	border-bottom: #B4B4B4 2px solid;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+
+#wrap h2 {
+	border-bottom: #B4B4B4 1px solid;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+    position: relative;
+    width: 100%;
+    margin-top:20px;
+    clear:both;
+}
+
+#wrap h3 {
+	border-bottom: #B4B4B4 1px solid;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+#wrap h3 .icon {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+#wrap h4 {
+	font-weight:bold;
+	font-size:14px;
+}
+
+:focus {
+	outline: 0;
+}
+
+#wrap {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+/* HEADER
+---------------------------------------------- */
+#header {
+	background-color: #505157;
+	height: 76px;
+}
+
+#header .logo {
+	border: none;
+	padding: 8px 15px;
+	height: 60px;
+}
+
+#header .logo:hover {
+	background: none;
+}
+
+#header .logo + a{
+	border-left:none;
+}
+
+#header a {
+	float: left;
+	display: block;
+	height: 32px;
+	line-height: 18px;
+	border-right: #222 1px solid;
+	border-left: #888 1px solid;
+	padding: 22px 30px;
+}
+
+#header a:hover {
+	background-color: #666;
+	background: linear-gradient(top, #696C70 0%,#3E4248 100%);
+	background: -webkit-linear-gradient(top, #696C70 0%,#3E4248 100%);
+	background: -moz-linear-gradient(top, #696C70 0%,#3E4248 100%);
+	text-decoration: none;
+}
+
+#header a:last-child {
+	border-right:none;
+}
+
+#header p {
+	font-size: 16px;
+	color: #fff;
+}
+
+#header p+p {
+	font-size: 11px;
+	color: #CCD4DB;
+}
+
+/*---------------------------------------------- */
+
+#title-login, #title-share {
+	margin-left: 130px;
+	margin-top: 60px;
+}
+
+#title-login h1, #title-share h1{
+	color: #ccc;
+	line-height: 52px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#title-login h2, #title-share h2{
+	color: #f80;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+
+
+
+
+/* MENUBAR
+---------------------------------------------- */
+
+#menubar {
+	height: 27px;
+}
+
+#menubar a, #menubar ul > li > span  {
+	padding: 8px 20px 4px;
+	height: 15px;
+}
+
+#menubar a, #toolbar a, #menubar ul > li > span {
+	display: block;
+}
+
+#menubar ul > li > span {
+    cursor:pointer;
+}
+
+#menubar > ul + ul {
+    float:right;
+}
+
+#menubar > ul {
+	list-style: none;
+	float:left;
+	position: relative;
+	z-index: 5;
+}
+
+#menubar > ul + ul{
+	float:right;
+}
+
+#menubar > ul li {
+	float: left;
+	position: relative;
+    z-index: 1000;
+}
+
+#menubar > ul > li:hover > a, #menubar > ul > li:hover > span {
+	padding: 8px 19px 4px;
+}
+
+#menubar img{
+	margin-left: 2px;
+}
+
+/* DROPDOWN */
+
+#menubar > ul ul {
+	list-style: none;
+	position: absolute;
+	left: -9999px;
+}
+
+#menubar > ul ul li{
+	float: none;
+}
+
+#menubar > ul ul a {
+	padding: 10px 19px 10px;
+}
+
+#menubar > ul + ul li:hover ul{
+	right: 0;
+	left: inherit;
+}
+
+#menubar > ul li:hover ul { /* Display the dropdown on hover */
+	left: 0; /* Bring back on-screen when needed */
+}
+
+
+
+/* TOOLBAR
+---------------------------------------------- */
+
+#toolbar {
+	padding: 8px 0; /* height = 33px */
+}
+
+#toolbar ul {
+	padding: 0;
+	margin: 0;
+}
+
+#toolbar li {
+	list-style:none;
+	display: inline-block;
+	margin: 0 0 0 14px;
+}
+
+/* UI */
+
+
+legend {
+	width:100%;
+}
+
+form select {
+	width: 100%;
+	height: 28px;
+	display:block;
+}
+
+
+/* SIDEBAR
+---------------------------------------------- */
+
+#sidebar {
+	width: 226px;
+	position: absolute;
+	top: 28px;
+	bottom: 0;
+	overflow: auto;
+}
+
+
+.app-name {
+    text-align: center;
+}
+
+#sidebar-content{
+	padding-right:11px;
+	width:215px;
+}
+
+#sidebar-content a > button,
+#sidebar-content > button{
+	margin: 20px 9px 0 9px;
+}
+
+#sidebar hr{
+	margin: 15px 9px 0 9px;
+}
+
+#sidebar h3 {
+	margin: 20px 9px 0 9px;
+}
+
+#sidebar button + span{
+	margin-left: 0px;
+    vertical-align: middle;
+}
+
+#sidebar-content > button {
+	font-size: 12px;
+}
+
+/* page list */
+
+#page-list{
+	margin-top: 5px;
+}
+
+#page-list p {
+    cursor:move;
+}
+
+#page-list > li{
+	list-style: none;
+	padding: 15px 9px 17px 18px;
+    cursor:pointer;
+    position: relative;
+    height:160px;
+    z-index:1;
+}
+
+#popup {
+    border-radius:0px;
+}
+
+#page-list > li:hover, #page-list > li.active {
+	background-color: #333;
+	background: linear-gradient(left, #23262A 0%,#3B4144 100%);
+	background: -webkit-linear-gradient(left, #23262A 0%,#3B4144 100%);
+	background: -moz-linear-gradient(left, #23262A 0%,#3B4144 100%);
+	border-top: #000 1px solid;
+	border-bottom: #828588 1px solid;
+	padding: 14px 9px 16px 18px;
+    height:160px;
+}
+
+#page-list > li p{
+	clear:both;
+	margin: 14px 0 0 0;
+}
+
+#page-list > li img{
+	height:138px;
+	vertical-align: text-top;
+}
+
+#page-list > li ul{
+	float: right;
+	margin-right: 10px;
+    margin-bottom: 64px;
+}
+
+#page-list > li ul li{
+	list-style:none;
+	margin-bottom: 12px;
+}
+
+.background-image{
+    position: absolute;
+    width: 125px;
+    height: 138px;
+    top: 15px;
+    z-index: 100;
+    background: url("../images/no-image.png") no-repeat scroll 0 0 transparent;
+}
+
+#page-list > li:hover .background-image, #page-list > li.active .background-image{
+    top:14px;
+}
+
+/* SCROLLBAR
+---------------------------------------------- */
+
+.jspVerticalBar{
+	width:11px !important;
+}
+
+
+
+/* MAIN
+---------------------------------------------- */
+#main {
+	width: 490px;
+	margin-left:226px;
+	padding: 25px;
+	
+}
+
+
+#main-preview {
+	float:left;
+	width: 444px;
+	position:relative;
+}
+#main-preview #iphone,#app-preview #iphone{
+	background: url('../images/iphone.png') no-repeat;
+}
+
+#main-preview .phone ul{
+	float: right;
+	margin-top: 200px;
+}
+
+#main-preview .phone ul.common{
+	margin-top: 155px;
+}
+
+#zoom-phone {
+    position: absolute;
+    right: 9px;
+    top: 5px;
+    width: 50px;
+}
+
+#main-preview li{
+	margin-bottom: 125px;
+}
+
+#main-preview li.common{
+	margin-bottom: 380px;
+}
+
+#main-preview.scale-three-quarter{
+    width:333px;
+}
+
+#main-preview.scale-half{
+    width:333px;
+}
+
+.phone {
+	width: 444px;
+	height: 766px;
+    transform-origin:top left;
+    -webkit-transform-origin:top left;
+    -moz-transform-origin:top left;
+	
+}
+
+.iframe-content#iframe-iphone{
+	position:absolute;
+	top:207px;
+	left:32px;
+	width:320px;
+	height:460px;
+}
+
+.iframe-content#iframe-iphone.scale-half{
+    top:131px;
+    left:16px;
+    width:160px;
+    height:230px;
+}
+
+.iframe-content#iframe-iphone.scale-three-quarter{
+    top:169px;
+    left:24px;
+    width:240px;
+    height:345px;
+}
+
+/* MAIN
+---------------------------------------------- */
+
+#main-config {
+	overflow: auto;
+	background: url('../images/gutter.png') repeat-y right;
+	position: absolute;
+	top:28px;
+	left: 730px;
+	bottom:0;
+	right: 20px;
+	padding-right:20px;
+}
+
+#main-config.scale-three-quarter{
+    left:605px;
+}
+
+#main-config.scale-half{
+    left:605px;
+}
+
+#main-config ul {
+	
+}
+
+#main-config button + span {
+	margin-left: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+#main-config a {
+    text-decoration: none;
+}
+
+#main-config .background-details span.details,#main-config .image-details span.details {
+	display:block;
+	font-size:12px;
+}
+
+.background-details, .image-details {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.background-details .image, .image-details .image, .arrow-details .image{
+	min-height: 120px;
+	float: left;
+	margin-right: 26px;
+}
+
+.background-details .details, .image-details .details{
+	margin-left: 300px;
+	margin-bottom: 6px;
+	line-height:16px;
+}
+
+.background-details .details, .image-details .details.small{
+   margin-left: 50px;
+}
+
+.select-color{
+	clear:both;
+}
+
+#main-config-content h2.first {
+    margin-top: 30px;
+}
+
+#main-config .background-details span.filename,#main-config .image-details span.filename,#main-config .arrow-details span.filename{
+	font-size:14px;
+	line-height: 32px;
+}
+
+#main-config .title-height{
+	background: url('../images/toolbar.gif') repeat;
+	border: 1px solid #999;
+	width: 306px;
+	padding: 0px 8px;
+    border-top:none;
+}
+
+#main-config .title-height input{
+	width: 50px;
+	display: inline;
+	margin: 0 3px;
+	text-align:center;
+}
+
+#main-config .title-height + button{
+	margin-top:10px;
+}
+
+#main-config form .radio+label{
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .4em 1.6em .45em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em 0 0 .5em; 
+    -moz-border-radius: .5em 0 0 .5em;
+    border-radius: .5em 0 0 .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    color: #d7d7d7;
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+}
+
+#main-config .title-active input[type="radio"]{
+	margin:0;
+}
+
+.cb-enable, .cb-disable { 
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .4em 1.2em .45em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    color: #d7d7d7;
+    border: solid 1px #333;
+    background: #333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    margin:0;
+}
+
+.cb-enable{
+	-webkit-border-radius: .5em 0 0 .5em; 
+    -moz-border-radius: .5em 0 0 .5em;
+    border-radius: .5em 0 0 .5em;
+}
+.cb-disable{
+	-webkit-border-radius: 0 .5em .5em 0; 
+    -moz-border-radius: 0 .5em .5em 0;
+    border-radius: 0 .5em .5em 0;
+}
+
+.cb-disable span, .cb-enable span {
+	display: block;
+	padding: 0 10px;
+	
+}
+
+.cb-disable.selected span {  color: #fff; }
+.cb-enable.selected span {  color: #fff; }
+
+.cb-enable.selected, .cb-disable.selected { 
+	background: #444;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#666));
+    background: -moz-linear-gradient(top,  #000,  #666);
+}
+
+
+.switch label { cursor: pointer; }
+.switch input { display: none; }
+
+
+
+
+
+
+/*---------------------------------------------- */
+#model-select {
+	margin: 26px 0 0px 0;
+	text-align:right;
+}
+
+#model-choose > span {
+    display: inline-block;
+    line-height: 25px;
+    float:left;
+    vertical-align: top;
+}
+
+#model-select > span {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+#model-select + span {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* organise element */
+
+.organise-element {
+	background: #b3b3b3;
+	margin: 5px 0;
+	color: #fff;
+	font-size: 14px;
+	height: 71px;
+	border-radius: 6px;
+	clear: both;
+}
+
+.organise-element p {
+	padding-top: 14px;
+}
+
+.organise-element img {
+	width: 53px;
+	height: 59px;
+	margin: 6px 12px 6px 6px;
+	float: left;
+}
+
+.organise-element span+a{
+	margin-right:28px;
+}
+
+.organise-element .edit,
+.organise-element .delete{
+	display:inline-block;
+}
+
+.organise-element .up,
+.organise-element .down {
+	float:right;
+	clear:right;
+	padding: 0;
+	margin: 8px 8px;
+}
+
+
+.organise-element .edit+span,.organise-element .delete+span {
+	color: #fff;
+	font-size: 11px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*
+---------------------------------------------- */
+
+.empty {
+    display: none;
+    padding-top:140px;
+    text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.errors {
+	color: #f00;
+	padding: 6px;
+	border: 1px solid #f00;
+	background: #fec;
+	width: 800px;
+	margin: 20px auto;
+}
+
+.select-color {
+    margin: 10px 0;
+}
+
+.select-color-input {
+    border: 1px solid #B4B4B4;
+    display: inline-block;
+    width: 25px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.select-color-label {
+    line-height: 22px;
+    vertical-align: middle;
+}
+.select-color, .icon.delete {
+    cursor: pointer;
+}
+
+.farbtastic {
+    border: 1px solid #B4B4B4;
+}
+
+.farbtastic * {
+    cursor: crosshair;
+}
+
+.cleditorMain {
+    margin-top:10px;
+}
+
+
+/* table list */
+table.table-list {
+    width:100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+table.table-list tr th {
+    font-size: 14px;
+    border-bottom: 1px solid #B4B4B4;
+    padding-bottom: 5px;
+}
+
+
+
+table.table-list tr.item td {
+    text-align: center;
+    height:49px;
+    border-bottom: 1px solid #B4B4B4;
+    vertical-align: middle;
+}
+
+table.table-list tr.item td button.small {
+    font-size: 12px;
+}
+
+table.table-list tr.item td span.edit,table.table-list .editpage {
+    cursor: pointer;
+    vertical-align: super;
+}
+
+#socialLinkSelector-logo {
+    float: left;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+
+.edit-image h3 {
+    margin: 0 0 18px 0;
+    padding: 0 0 3px 0;
+    border-bottom: 1px solid #fff;
+}
+.edit-image img {
+    max-width: 320px;
+    float: left;
+    margin-right: 28px;
+}
+.edit-image {
+    margin: 18px 0;
+    color: #fff;
+}
+.edit-image ul {
+	margin-left:348px;
+}
+.edit-image label {
+    margin-left: 8px;
+}
+
+.edit-image .icon {
+    display: inline-block;
+}
+
+.edit-image .custom-size{
+	margin-top: 8px;
+	text-indent:18px;
+	line-height:20px;
+}
+
+.edit-image .custom-size .button{
+	margin-left: 16px;
+}
+
+#social-list input {
+    display:inline;
+}
+
+#social-list .delete,#social-list .edit  {
+    vertical-align:middle;
+    margin-left: 10px;
+}
+
+#social-list {
+    font-size: 14px;
+}
+
+#main-config #list-style h4{
+	margin: 25px 0 22px 0;
+}
+#main-config #list-style p{
+	margin:8px 0;
+}
+
+#edit-media button {
+    margin-top:20px;
+}
+
+.iphone-menu {
+	background: #3a3a3a;
+	background: -moz-linear-gradient(top, #3a3a3a 0%, #1e1e1e 49%, #000000 50%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a3a3a), color-stop(49%,#1e1e1e), color-stop(50%,#000000), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top, #3a3a3a 0%,#1e1e1e 49%,#000000 50%,#000000 100%);
+	background: -o-linear-gradient(top, #3a3a3a 0%,#1e1e1e 49%,#000000 50%,#000000 100%);
+	background: -ms-linear-gradient(top, #3a3a3a 0%,#1e1e1e 49%,#000000 50%,#000000 100%);
+	background: linear-gradient(top, #3a3a3a 0%,#1e1e1e 49%,#000000 50%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#000000',GradientType=0 );
+}
+.iphone-menu span {
+	color:#fff;
+	font-size:10px;
+	font-family: Arial,Helvetica,sans-serif;
+	margin:auto;
+}
+
+#menu-list tr.item {
+    height:49px;
+}
+
+#popup.cgu {
+    background: #FFF;
+    color:#000;
+    padding: 10px;
+    text-align: justify;
+}
+
+.iphone-menu td:hover,.iphone-menu td.active{
+
+	border-radius:10px;
+
+	background: #3a3a3a;
+	background: -moz-linear-gradient(top, #818181 0%, #696969 49%, #5c5c5c 50%, #5c5c5c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#818181), color-stop(49%,#696969), color-stop(50%,#5c5c5c), color-stop(100%,#5c5c5c));
+	background: -webkit-linear-gradient(top, #818181 0%,#696969 49%,#5c5c5c 50%,#5c5c5c 100%);
+	background: -o-linear-gradient(top, #818181 0%,#696969 49%,#5c5c5c 50%,#5c5c5c 100%);
+	background: -ms-linear-gradient(top, #818181 0%,#696969 49%,#5c5c5c 50%,#5c5c5c 100%);
+	background: linear-gradient(top, #818181 0%,#696969 49%,#5c5c5c 50%,#5c5c5c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#818181', endColorstr='#5c5c5c',GradientType=0 );
+}
+
+.iphone-menu .icon-menu {
+    cursor:pointer;
+}
+
+.video-config video, .audio-config audio, .audio-js-box {
+    margin-top:20px;
+	margin-bottom:20px;
+	display:block;
+}
+.video-config .filename,.audio-config .filename{
+	font-size:14px;
+	line-height:32px;
+}
+
+.video-config .details, .audio-config .details{
+	font-size:12px;
+	line-height:16px;
+}
+
+.arrow-config img{
+	float:left;
+	margin-bottom:28px;
+}
+
+.arrow-config .arrow-details{
+	margin-bottom:28px;
+}
+.arrow-config p{
+	line-height:20px;
+}
+.arrow-config li label{
+	margin-left: 8px;
+}
+
+.arrow-config ul{
+	padding-left:5px;
+}
+
+.arrow-config .arrow-details h4, #form-emailTo {
+	margin-top:10px;
+    margin-bottom:10px;
+}
+
+.arrow-details .image {
+    min-height: 40px;
+}
+
+.arrow-config input[type=radio] {
+    margin-top:10px;
+}
+
+.up, .down {
+    cursor:pointer;
+}
+
+#sidebar a:hover {
+    text-decoration: none;
+}
+
+#app-preview {
+    padding:20px;
+    text-align: center;
+}
+
+#app-preview .phone {
+    width:380px;
+    height:743px;
+    margin-left:83px;
+}
+
+#app-frame-iphone.iframe-content {
+    height: 460px;
+    left: 135px;
+    position: absolute;
+    top: 173px;
+    width: 320px;
+}
+
+#main-config-screen form button {
+    margin-top:10px;
+}
+
+#form-build ul {
+    padding: 10px;
+}
+
+.unpublish-message{
+    padding: 30px;
+}
+
+.publish-details li {
+    list-style: disc;
+    margin: 10px 30px;
+}
+.publish-details {
+    margin: 26px 33px;
+}
+.publish-details p {
+    margin-top: 15px;
+}
+.publish-details ul {
+    margin-top: 50px;
+}
+
+.publish-details ul ul {
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.publish-details li > .button {
+    margin-left: 15px;
+}
+.alert-info {
+    font-size: 12px;
+    color: #e6e6e6;
+    margin-left: 120px;
+}
+.alert-info .button {
+    margin-top: 15px;
+}
+
+#form-table {
+    float:left;
+    width:100%;
+}
+
+.triggers {
+    margin: 50px;
+    text-align: center;
+}
+
+.triggers img {
+    max-width: 400px;
+    margin: 20px;
+}
+
+#title-share > h3 {
+    margin-top:60px;
+}
+
+#title-share > h3.help {
+    margin-top: 0px;
+}
+
+.link-store {
+    margin: 10px;
+}
+
+.cleditorPopup input[type="text"], .cleditorPopup select{
+    width:auto;
+	display:inline;
+	font-size:12px;
+}
+
+#main-config #list-style label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.transparency {
+    display: inline;
+    margin-left: 5px;
+}
+
+.transparency input {
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+}
+
+#edit-form p label.countries {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 23px;
+    margin-left: 3px;
+    margin-right: 10px;
+    vertical-align: top;
+}

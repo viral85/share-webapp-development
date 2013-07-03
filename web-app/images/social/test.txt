@@ -1,0 +1,355 @@
+<socialLink>
+	<logo>aim-24x24.png</logo>
+        <name>AIM</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>amazon-24x24.png</logo>
+        <name>Amazon</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>bbcid-24x24.png</logo>
+        <name>BBC ID</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>bebo-24x24.png</logo>
+        <name>Bebo</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>creativecommons-24x24.png</logo>
+        <name>Creative Common</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>delicious-24x24.png</logo>
+        <name>Delicious</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>digg-24x24.png</logo>
+        <name>Digg</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>digg-this-24x24.png</logo>
+        <name>Digg this</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>dopplr-24x24.png</logo>
+        <name>Dopplr</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>dribbble-24x24.png</logo>
+        <name>Dribble</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>ebay-24x24.png</logo>
+        <name>Ebay</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>email-24x24.png</logo>
+        <name>Email</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>ember-24x24.png</logo>
+        <name>Ember</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>facebook-24x24.png</logo>
+        <name>Facebook</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>feed-24x24.png</logo>
+        <name>Feed</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>ffffound-24x24.png</logo>
+        <name>Ffffound</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>fireeagle-24x24.png</logo>
+        <name>Fire Eagle</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>flickr-24x24.png</logo>
+        <name>Flick</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>formspring-24x24.png</logo>
+        <name>Form Spring</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>foursquare-24x24.png</logo>
+        <name>Foursquare</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>geotag-24x24.png</logo>
+        <name>Geotag</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>getsatisfaction-24x24.png</logo>
+        <name>Get Satisfaction</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>github-24x24.png</logo>
+        <name>Github</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>goodreads-24x24.png</logo>
+        <name></name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>google-24x24.png</logo>
+        <name>Google</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>google-talk-24x24.png</logo>
+        <name>Google talk</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>gowalla-24x24.png</logo>
+        <name>Gowalla</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>huffduffer-24x24.png</logo>
+        <name>Huff duffer</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>identica-24x24.png</logo>
+        <name>Identica</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>ilike-24x24.png</logo>
+        <name>Ilike</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>imdb-24x24.png</logo>
+        <name>IMDB</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>itunes-24x24.png</logo>
+        <name>iTunes</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>lanyrd-24x24.png</logo>
+        <name>Lanyrd</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>lastfm-24x24.png</logo>
+        <name>Lastfm</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>linkedin-24x24.png</logo>
+        <name>Linkedin</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>meetup-24x24.png</logo>
+        <name>Meetup</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>messenger-24x24.png</logo>
+        <name>Messenger</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>mixx-24x24.png</logo>
+        <name>Mixx</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>myspace-24x24.png</logo>
+        <name>Myspace</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>netvibes-24x24.png</logo>
+        <name>Netvibes</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>newsvine-24x24.png</logo>
+        <name>Newsvine</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>nikeplus-24x24.png</logo>
+        <name>Nike plus</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>openid-24x24.png</logo>
+        <name>OpenID</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>orkut-24x24.png</logo>
+        <name>Orkut</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>paypal-24x24.png</logo>
+        <name>Paypal</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>picasa-24x24.png</logo>
+        <name>Picase</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>pinboard-24x24.png</logo>
+        <name>Pinboard</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>plancast-24x24.png</logo>
+        <name>Plancast/name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>posterous-24x24.png</logo>
+        <name>Posterous</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>readernaut-24x24.png</logo>
+        <name>Readernaut</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>reddit-24x24.png</logo>
+        <name>Reddit</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>share-24x24.png</logo>
+        <name>Share</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>skype-24x24.png</logo>
+        <name>Skype</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>slideshare-24x24.png</logo>
+        <name>Slideshare</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>spotify-24x24.png</logo>
+        <name>Spotify</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>stumbleupon-24x24.png</logo>
+        <name><Stumbleupon/name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>tumblr-24x24.png</logo>
+        <name>Tumblr</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>twitter-24x24.png</logo>
+        <name>Twitter</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>upcoming-24x24.png</logo>
+        <name>Up Coming</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>vcard-24x24.png</logo>
+        <name>Vcard</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>viddler-24x24.png</logo>
+        <name>Viddler</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>vimeo-24x24.png</logo>
+        <name>Vimeo</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>website-24x24.png</logo>
+        <name>Website</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>wikipedia-24x24.png</logo>
+        <name>Wikipedia</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>xbox-24x24.png</logo>
+        <name>XBox</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>xing-24x24.png</logo>
+        <name>Xing</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>yahoo-24x24.png</logo>
+        <name>Yahoo</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>yahoo-messenger-24x24.png</logo>
+        <name>Yahoo Messenger</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>yelp-24x24.png</logo>
+        <name>Yelp</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>youtube-24x24.png</logo>
+        <name>Youtube</name>
+        <url></url>
+    </socialLink>
+<socialLink>
+	<logo>zootool-24x24.png</logo>
+        <name>Zootool</name>
+        <url></url>
+    </socialLink>
