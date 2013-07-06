@@ -285,7 +285,7 @@ class ScreenController {
                 break
         }
     }
-
+    @Secured(['IS_AUTHENTICATED_ANONYMOUSLY'])
     def preview = {
         if(request.method != 'GET'){
             render(status: 405)
@@ -297,35 +297,6 @@ class ScreenController {
         }
     }
 
-    @Secured('permitAll')
-    def sharePreview = {
-        def application =  Application.get(params.appId.toLong())
-        if(request.method != 'GET'){
-            render(status: 405)
-            return
-        }
-        request.application = application
-        withScreen{ screen ->
-            request.screen = screen
-            render(status:200, view:getTemplateScreen(screen,'preview',true), model:[screen:screen])
-        }
-    }
-
-    @Secured('permitAll')
-    def sharePreviewSecond = {
-        def application =  Application.get(params.application.toLong())
-        println(params.application)
-        println(params.id)
-        if(request.method != 'GET'){
-            render(status: 405)
-            return
-        }
-        request.application = application
-        withScreen{ screen ->
-            request.screen = screen
-            render(status:200, view:getTemplateScreen(screen,'preview',true), model:[screen:screen])
-        }
-    }
     @Secured(['ROLE_ANONYMOUS'])
     def screenshot = {
         if(request.method != 'GET'){
@@ -356,7 +327,7 @@ class ScreenController {
     }
 
     private def withScreen(id="id", Closure c) {
-        def screen = Screen.findByApplicationAndId(request.application,params."${id}".toLong())
+        def screen = Screen.findByApplicationAndId(request.application != null ? request.application :Application.get(params.application.toLong()) ,params."${id}".toLong())
         if(screen) {
             c.call screen
         } else {
@@ -381,7 +352,6 @@ class ScreenController {
         def folderView = template in ['options', 'title'] ? '/screen/' : '/'+(controllerName - 'Screen') + (forPhone ? '/iPhone' : '')
         String templateScreen = "${folderView}/${templatePrefix}${template in ['options', 'title', 'content'] ? template : (template ?:'content')}"
         //log.debug("Template: $templateScreen")
-        println("templateScreen: " + templateScreen)
         return templateScreen
     }
 }

@@ -389,16 +389,6 @@ class AppController {
         }
     }
 
-    @Secured('permitAll')
-    def outerAppPreview = {
-        withApplication { application ->
-            def screen = application.screens.find{ it.home } ?: application.screens?.asList()?.first() ?: null
-            if (screen){
-                render(status:200, template:'outerPreview', model:[homeScreen:screen.id,application:application.id])
-               //redirect(controller: "Screen", action: "sharePreviewSecond", model:[id:screen.id,application:application.id])
-            }
-        }
-    }
     def inProgress = {
         withApplication { application ->
             render(status:200, contentType: 'application/json', text:[inProgress:application.openCvInProgress,active:application.active] as JSON)

@@ -11,6 +11,12 @@ class SecurityFilters {
         secureApplication(controller: '*', action: '*') {
             before = {
                 User user = null
+				if ('preview'.equalsIgnoreCase(controllerName)) {
+                    return true
+                }
+                if ('screen'.equalsIgnoreCase(controllerName) && 'preview'.equalsIgnoreCase(actionName)){
+                    return true
+                }
                 if (springSecurityService.isLoggedIn()){
                         user = (User)springSecurityService.currentUser
                         request.currentUser = user
